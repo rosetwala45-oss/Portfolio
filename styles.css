@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Epilogue", sans-serif;
+}
+/* ------------NAV-------------- */
+.navbar-toggler {
+  border: none;
+  box-shadow: none;
+}
