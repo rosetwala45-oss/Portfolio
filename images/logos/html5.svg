@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="110" viewBox="0 0 80 110">
+  <circle cx="40" cy="40" r="38" fill="#E44D26" opacity="0.08"/>
+  <polygon points="40,4 74,4 67,68 40,76 13,68" fill="#E44D26"/>
+  <polygon points="40,12 40,69 61,63 66,18 40,18" fill="#F16529"/>
+  <text x="40" y="54" text-anchor="middle" font-family="Arial Black, sans-serif" font-weight="900" font-size="28" fill="white">5</text>
+  <text x="40" y="100" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#E44D26" letter-spacing="1.5">HTML</text>
+</svg>
