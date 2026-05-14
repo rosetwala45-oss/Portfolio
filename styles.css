@@ -11,37 +11,7 @@ body {
 h1 {
   font-size: 6rem;
 }
-/* Tablet */
-@media (max-width: 768px) {
-  h1 {
-    font-size: 3.2rem;
-  }
-  h2 {
-    font-size: 2.4rem;
-  }
-  h3 {
-    font-size: 2rem;
-  }
-  p {
-    font-size: 1.4rem;
-  }
-}
 
-/* Mobile */
-@media (max-width: 480px) {
-  h1 {
-    font-size: 2.4rem;
-  }
-  h2 {
-    font-size: 2rem;
-  }
-  h3 {
-    font-size: 1.8rem;
-  }
-  p {
-    font-size: 1.4rem;
-  }
-}
 /* ------------NAV-------------- */
 .navbar-toggler {
   border: none;
@@ -51,4 +21,11 @@ h1 {
 /* ------------HERO---------- */
 .hero {
   padding: 10rem;
+}
+.logo-items-container {
+  text-align: center;
+}
+.logo-items-container img {
+  max-width: 8rem;
+  height: auto;
 }
