@@ -22,6 +22,9 @@ h1 {
 .hero {
   padding: 10rem;
 }
+.hero h3 {
+  margin-bottom: 2rem;
+}
 .logo-items-container {
   text-align: center;
 }
