@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="nude" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0e6d8;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#e0d0bc;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <!-- Background rounded square -->
+  <rect x="1" y="1" width="30" height="30" rx="8" fill="url(#nude)"/>
+  <!-- Subtle border -->
+  <rect x="1" y="1" width="30" height="30" rx="8" fill="none" stroke="#c9b49a" stroke-width="0.8"/>
+  <!-- Initials MT in warm brown -->
+  <text x="16" y="22" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="13" fill="#6b3f1f" letter-spacing="0.5">MT</text>
+</svg>
