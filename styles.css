@@ -57,6 +57,9 @@ h3 {
   border: none;
   box-shadow: none;
 }
+.active-link {
+  color: #ffaa2b;
+}
 
 /* ------------HERO---------- */
 .hero {
@@ -75,4 +78,43 @@ h3 {
 .logo-items-container img {
   width: 8rem;
   height: auto;
+}
+/* About section */
+.about-container {
+  background-color: #f9e6f0;
+  padding: 12rem 25rem;
+}
+.about-image {
+  max-width: 30rem;
+  border-radius: 1rem;
+}
+@media (max-width: 768px) {
+  .about-container {
+    padding: 10rem 2rem;
+  }
+  .about-image {
+    max-width: 25rem;
+  }
+}
+/* Contact box */
+.contact-box {
+  max-width: 70%;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+/* -------COMPONENTS--------- */
+.btn {
+  font-size: 1.6rem;
+  padding: 1rem 2rem;
+}
+.btn-custom {
+  background-color: black;
+
+  color: white;
+}
+.btn-custom:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
 }
