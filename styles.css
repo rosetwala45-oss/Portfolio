@@ -7,6 +7,7 @@ html {
 }
 body {
   font-family: "Epilogue", sans-serif;
+  font-size: 1.6rem;
 }
 h1 {
   font-size: 6rem;
@@ -58,7 +59,6 @@ h3 {
   box-shadow: none;
 }
 .active-link {
-  color: #ffaa2b;
 }
 
 /*Hero section */
@@ -96,7 +96,29 @@ h3 {
   margin: 0 auto;
   justify-content: space-around;
   border-top: 1px solid #e0e0e0;
-  padding-top: 2rem;
+  padding-top: 3rem;
+}
+.footer-end {
+  text-align: center;
+}
+.email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 2.5rem;
+}
+.email-link:hover {
+  color: #c96b8a;
+}
+.social-links {
+}
+.fab {
+  margin: 0 1rem;
+  color: black;
+  font-size: 2.5rem;
+  padding: 10px;
+}
+.fab:hover {
+  color: #c96b8a;
 }
 @media (max-width: 768px) {
   .about-container {
@@ -105,7 +127,14 @@ h3 {
   .about-image {
     max-width: 25rem;
   }
+  .contact-box {
+    text-align: center;
+  }
+  .contact-box a {
+    width: 100%;
+  }
 }
+
 /* -------COMPONENTS--------- */
 .btn {
   font-size: 1.6rem;
