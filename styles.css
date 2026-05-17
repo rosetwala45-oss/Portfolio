@@ -61,7 +61,7 @@ h3 {
   color: #ffaa2b;
 }
 
-/* ------------HERO---------- */
+/*Hero section */
 .hero {
   position: relative;
   padding: 15rem 2rem 2rem 2rem;
@@ -88,6 +88,16 @@ h3 {
   max-width: 30rem;
   border-radius: 1rem;
 }
+/* FOOTER */
+
+/* Contact box */
+.contact-box {
+  max-width: 70%;
+  margin: 0 auto;
+  justify-content: space-around;
+  border-top: 1px solid #e0e0e0;
+  padding-top: 2rem;
+}
 @media (max-width: 768px) {
   .about-container {
     padding: 10rem 2rem;
@@ -96,13 +106,6 @@ h3 {
     max-width: 25rem;
   }
 }
-/* Contact box */
-.contact-box {
-  max-width: 70%;
-  margin: 0 auto;
-  justify-content: space-around;
-}
-
 /* -------COMPONENTS--------- */
 .btn {
   font-size: 1.6rem;
